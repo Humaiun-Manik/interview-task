@@ -353,3 +353,106 @@ hr {
   border: 5px solid #f0e615;
   border-radius: 50%;
 }
+
+.guidelines {
+  width: 1290px;
+  margin: auto;
+  text-align: center;
+  margin-top: 65px;
+}
+.guidelines h2 {
+  color: #003b60;
+  font-size: 34px;
+}
+.guidelines p {
+  color: #003b60;
+  font-size: 22px;
+  border: 1px solid #003b60;
+  margin: auto;
+  padding: 18px;
+  margin-bottom: 40px;
+}
+.pant-amount {
+  background-image: url("/images/434\ 1.png");
+  background-size: cover;
+  width: 900px;
+  height: 700px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.pant-amount h3 {
+  color: #fff;
+  font-size: 44px;
+  margin-bottom: 0px;
+  margin-top: 80px;
+  padding-top: 250px;
+}
+.pant-amount p {
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.clients {
+  width: 1290px;
+  margin: auto;
+}
+.client-info {
+  display: flex;
+}
+.client {
+  width: 400px;
+  text-align: center;
+  margin-right: 57px;
+  margin-bottom: 80px;
+}
+.client img {
+  width: 130px;
+}
+.client-comment {
+  color: #003b60;
+  background-color: #fff;
+  text-align: center;
+  margin-top: -70px;
+  padding: 30px;
+  padding-top: 80px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.client-comment h4 {
+  font-size: 28px;
+  margin: 0;
+}
+.client-comment hr {
+  width: 100%;
+  margin: 0;
+  border: none;
+  border-top: 2px dotted #003b60;
+}
+.client:hover .client-comment {
+  color: #fff;
+  background-color: #003b60;
+  transition: 1s;
+}
+.client:hover .client-comment hr {
+  border-top: 2px dotted #f0e615;
+  transition: 1s;
+}
+.arrow {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.arrow i {
+  color: #003b60;
+  font-size: 57px;
+  margin-right: 20px;
+}
+.arrow i:hover {
+  color: #fff;
+  background-color: #003b60;
+  border-radius: 50%;
+  transition: 0.3s;
+}
